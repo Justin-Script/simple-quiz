@@ -1,0 +1,82 @@
+ body {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 10px;
+        }
+
+        section button {
+            padding: 20px 40px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .b-eas {
+            background: green;
+            color: white;
+        }
+
+        .b-norm {
+            background: yellow;
+        }
+
+        .b-hard {
+            background: red;
+            color: white;
+        }
+
+        .modal-eas {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, .3);
+        }
+
+        .hidden-eas {
+            display: none;
+        }
+
+        .p-cont-eas {
+            width: 500px;
+            margin: 100px auto;
+        }
+
+        .header-eas {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .header-eas p {
+            cursor: pointer;
+            color: red;
+            font-weight: bold;
+        }
+
+        .p-content-eas {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .inputAnswer {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        #answerEas {
+            width: 80px;
+            padding: 5px;
+        }
